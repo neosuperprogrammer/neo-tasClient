@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<devices-definition>
+	<devices>
+		<device>
+			<platformHeader>
+				<phv>PHV102</phv>
+				<APPLICATION_ID>A002</APPLICATION_ID>				
+				<SESSION_ID>0</SESSION_ID>
+				<SERVICE_ID>0</SERVICE_ID>				
+				<IMEI>                    </IMEI>				
+				<MSISDN>                    </MSISDN>				
+				<WIFI_MAC>3CD0F84F1B4F        </WIFI_MAC>				
+				<MODEL_NO>iPhone7,1                     </MODEL_NO>				
+				<ISP_NAME>LG U+     </ISP_NAME>				
+				<OS_TYPE>I</OS_TYPE>				
+				<OS_VERSION>8.2                 </OS_VERSION>				
+				<UUID>0                       </UUID>				
+				<BODY_TYPE>2</BODY_TYPE>
+				<STATUS_CODE>0</STATUS_CODE>				
+			</platformHeader>
+			<header>			
+				<AccountId>user02</AccountId>
+				<Min>                    </Min>
+				<Wifi>3CD0F84F1B4F        </Wifi>
+				<Version>1.0.0</Version>
+			</header>
+			<body>
+				<auth>
+					<Password><![CDATA[123qwe!]]></Password>
+					<Signature></Signature>
+					<App_Version></App_Version>
+					<Signature>test</Signature>
+				</auth>
+				<mail>
+					<Mail_To><![CDATA[user02@magnachip.com]]></Mail_To>
+					<Mail_Cc></Mail_Cc>
+					<Mail_Hidden_Cc></Mail_Hidden_Cc>
+					<Mail_Subject>TEST : Magnachip AutoTest Subject</Mail_Subject>
+					<Mail_Body>Magnachip AutoTest body</Mail_Body>
+					<Mail_Send_Type>1</Mail_Send_Type>
+					<Attached_File_Count>0</Attached_File_Count>
+					<Req_Page>1</Req_Page>
+					<MailItemPerPage>20</MailItemPerPage>
+					<Search_Type>1</Search_Type>
+					<Delete_Type>1</Delete_Type>
+				</mail>
+				<addr>
+					<Name>임민웅</Name>
+					<Email><![CDATA[user02@magnachip.com]]></Email>
+					<Company>tionsoft</Company>
+					<TelePhone>02-0000-0000</TelePhone>
+					<MobilePhone>010-0000-0000</MobilePhone>
+					<Category>1</Category>
+					<Group_ID>ROOT</Group_ID>
+					<Req_Page>1</Req_Page>
+					<AddressPerPage>20</AddressPerPage>
+					<Search_Keyword_Type>1</Search_Keyword_Type>
+					<Search_Type>1</Search_Type>
+				</addr>
+				<cal>
+					<Type>1</Type>
+					<IsShare>1</IsShare>
+					<All_Day_Event>0</All_Day_Event>
+					<Start_Day>201504010900</Start_Day>
+					<End_Day>201504011200</End_Day>
+					<Doc_Title>Magnachip AutoTest title</Doc_Title>
+					<Doc_Room>Magnachip AutoTest room</Doc_Room>
+					<Doc_Body>Magnachip AutoTest body</Doc_Body>
+					<Doc_Alarm>0</Doc_Alarm>
+					<Mail_To><![CDATA[user02@magnachip.com]]></Mail_To>
+					<Standard_Date>20150401</Standard_Date>
+					<Target_Person_ID></Target_Person_ID>
+					<Standard_Start_Date>201504010000</Standard_Start_Date>
+					<Standard_End_Date>201504012339</Standard_End_Date>
+					<Req_Page>1</Req_Page>
+					<Cal_ItemPerPage>20</Cal_ItemPerPage>
+					<Search_Type>1</Search_Type>
+					<Search_Term>4</Search_Term>
+				</cal>
+				<push>
+					<SetPush>1</SetPush>
+					<SetSunday>1</SetSunday>
+					<SetMonday>1</SetMonday>
+					<SetTuesday>1</SetTuesday>
+					<SetWednesday>1</SetWednesday>
+					<SetThursday>1</SetThursday>
+					<SetFriday>1</SetFriday>
+					<SetSaturday>1</SetSaturday>
+					<SetTime>0000-2400</SetTime>
+					<DeviceToken>APNS</DeviceToken>
+					<Token_Type>0</Token_Type>
+				</push>
+				<file>
+					<Domain>TION_MO</Domain>
+					<FileUsage>Private</FileUsage>
+					<FileLocationType>1</FileLocationType>				
+					<FileLocationParameter></FileLocationParameter>				
+					<RequestPage>10</RequestPage>				
+					<RequestUnit>1</RequestUnit>				
+					<Resolution>1</Resolution>				
+					<WatermarkText></WatermarkText>				
+					<PageSetup>0</PageSetup>				
+					<AffiliateCode></AffiliateCode>				
+					<Language>1</Language>				
+				</file>
+			</body>
+		</device>
+	</devices>
+</devices-definition>

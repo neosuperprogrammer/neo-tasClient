@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<protocol-definition>
+	<protocols>
+		<protocol name="A002">
+			<header>
+				<field name="Header_JSON" type="string"/>
+			</header>
+			<body name="AUTH00001">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="AUTH00002">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="AUTH00003">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+			</body>
+			
+			<body name="CAL000009">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+
+			<body name="CAL000011">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+
+			<body name="CAL000012">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>				
+			</body>
+
+			<body name="CAL000013">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+			</body>
+
+			<body name="CAL000014">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+
+			<body name="CAL000016">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+
+			<body name="CAL000017">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+
+			<body name="CAL000021">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+
+			<body name="CAL000022">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			
+			<body name="CAL000023">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			
+			<body name="CAL000024">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			
+			<body name="CAL000201">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>			
+
+			<body name="COM000000">
+			</body>
+
+			<body name="COM000001">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="COM000002">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			
+			<body name="MAIL00000">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00001">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00002">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00003">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00005">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00006">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00007">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00026">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00027">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00028">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00029">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="MAIL00030">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			
+			<body name="MAIL00101">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>	
+			
+			<body name="MAIL00102">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			
+			<body name="MAIL00103">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>	
+			
+			<body name="MAIL00104">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>			
+			
+			<body name="ADDR00014">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="ADDR00016">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="ADDR00017">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="ADDR00018">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+					<field name="Out_BYTE" type="byte"/>
+				</response>
+			</body>
+			<body name="ADDR00019">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="ADDR00020">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="FILE00001">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+					<field name="Out_BYTE" type="byte"/>
+				</response>
+			</body>
+			
+			<body name="FILE00002">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+					<field name="Out_BYTE" type="byte"/>
+				</response>
+			</body>
+			
+			<body name="PUSH00001">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+			</body>
+			
+			<body name="PUSH00002">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			
+			<body name="PUSH00003">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			
+			<body name="PUSH00003">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			
+			<body name="BBS000001">
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="BBS000002">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="BBS000003">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="BBS000004">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="BBS000007">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+			</body>
+			<body name="BBS000008">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+			<body name="BBS000009">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+			</body>
+		</protocol>
+		
+		<!--protocol name="A003">
+			<header>
+				<field name="Header_JSON" type="string"/>
+			</header>
+			
+			<body name="COM000001">
+				<request>
+					<field name="In_JSON" type="string"/>
+				</request>
+				<response>
+					<field name="Out_JSON" type="string"/>
+				</response>
+			</body>
+		</protocol-->
+	</protocols>
+</protocol-definition>

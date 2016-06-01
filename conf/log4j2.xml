@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<Configuration status="error" name="tap" packages="">
+	 <Appenders>
+		<RollingFile name="log-appender" fileName="./logs/access.log" filePattern="./logs/$${date:yyyyMM}/access_%d{yyyyMMdd}.log">
+		 <PatternLayout pattern="[%d{HH:mm:ss.SSS}][%t][%-5p][%F:%L] | %m%n"/>
+		 <Policies>	
+		   <TimeBasedTriggeringPolicy />
+		  </Policies>
+		</RollingFile>
+		
+		<RollingFile name="error-appender" fileName="./logs/error.log" filePattern="./logs/$${date:yyyyMM}/error_%d{yyyyMMdd}.log">
+		 <PatternLayout pattern="[%d{HH:mm:ss.SSS}][%t][%-5p][%F:%L] | %m%n"/>
+		 <Policies>	
+		   <TimeBasedTriggeringPolicy />
+		  </Policies>
+		</RollingFile>
+		
+	 </Appenders>
+ 	
+	 <Loggers>
+		<Logger name="LOGGER" level="INFO" additivity="false">
+			<AppenderRef ref="log-appender"/>
+		</Logger>
+
+		<Logger name="ERROR" level="INFO" additivity="false">
+			<AppenderRef ref="error-appender"/>
+		</Logger>
+		
+	    <Root level="ERROR">
+		</Root>
+	</Loggers>
+</Configuration>
+
